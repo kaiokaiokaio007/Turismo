@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Turismo</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#destinos">Destinos</a></li>
+            <li><a href="#dicas">dicas de viagens</a></li>
+            <li><a href="#contato">contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Destinos</h2>
+            <div class="destino" onclick="mostrarDetalhes(Dourado)"></div>
+            <div class="destino" onclick="mostrarDetalhes('Broa')"></div>
+            <div class="destino" onclick="mostrarDetalhes('Aparecidinha')"></div>
+        </section>
+
+        <section id="dicas">
+            <h2>Dicas de Viagem</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam in et eum eaque unde quos explicabo ut sint vel iure ab sapiente corrupti voluptatem, molestias neque sunt labore error rem.</p>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <input type="text" placeholder="seu nome" required>
+                <input type="text" placeholder="seu email" required>
+                <textarea placeholder="sua mensagem" required></textarea>
+                <button type="submit">enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Turismo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
